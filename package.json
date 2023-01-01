@@ -6,16 +6,25 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "generate": "openapi --input ./api/apiSchema.json --output ./api --client axios"
   },
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/icons-material": "^5.11.0",
+    "@mui/material": "^5.11.2",
     "@next/font": "13.1.1",
+    "@types/google-map-react": "^2.1.7",
     "@types/node": "18.11.18",
     "@types/react": "18.0.26",
     "@types/react-dom": "18.0.10",
+    "axios": "^1.2.1",
     "eslint": "8.30.0",
     "eslint-config-next": "13.1.1",
+    "google-map-react": "^2.2.0",
     "next": "13.1.1",
+    "openapi-typescript-codegen": "^0.23.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "typescript": "4.9.4"
